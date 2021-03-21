@@ -1,7 +1,7 @@
 {
     "##": "Check chromium.woolyss.com for different versions of Chromium releases.",
     "version": "89.0.4389.90",
-    "description": "Browser aiming for safer, faster, and more stable way for all users to experience the web (Hibbiki's build)",
+    "description": "Browser aiming for safer, faster, and more stable way for all users to experience the web (Hibbiki's build). This is sync-enabled version of chromium.",
     "homepage": "https://www.chromium.org",
     "license": "BSD-3-Clause",
     "architecture": {
