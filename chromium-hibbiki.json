@@ -1,17 +1,17 @@
 {
     "##": "Check chromium.woolyss.com for different versions of Chromium releases.",
-    "version": "91.0.4472.106",
+    "version": "91.0.4472.114",
     "description": "Browser aiming for safer, faster, and more stable way for all users to experience the web (Hibbiki's build). This is sync-enabled version of chromium.",
     "homepage": "https://github.com/Hibbiki/chromium-win64",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Hibbiki/chromium-win64/releases/download/v91.0.4472.106-r870763/mini_installer.sync.exe#/dl.7z",
-            "hash": "sha1:49db7961b6d40261ebe08dcc84093dbe69be6210"
+            "url": "https://github.com/Hibbiki/chromium-win64/releases/download/v91.0.4472.114-r870763/mini_installer.sync.exe#/dl.7z",
+            "hash": "sha1:e3f4196a8b9666d2df6d810df34980af945a290d"
         },
         "32bit": {
-            "url": "https://github.com/Hibbiki/chromium-win32/releases/download/v91.0.4472.106-r870763/mini_installer.sync.exe#/dl.7z",
-            "hash": "sha1:3f06b81b68e67be5d5238a0efc81a83b62c3eacd"
+            "url": "https://github.com/Hibbiki/chromium-win32/releases/download/v91.0.4472.114-r870763/mini_installer.sync.exe#/dl.7z",
+            "hash": "sha1:cc3493c116ed7b4c0b32b79d9c07ce463ce93038"
         }
     },
     "pre_install": "Expand-7zipArchive \"$dir\\chrome.7z\" \"$dir\" -ExtractDir 'Chrome-bin' -Removal",
