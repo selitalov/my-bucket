@@ -1,29 +1,32 @@
 {
     "##": "Check chromium.woolyss.com for different versions of Chromium releases.",
     "version": "92.0.4515.131",
-    "description": "Browser aiming for safer, faster, and more stable way for all users to experience the web (macchrome's build). This is sync-disabled version of chromium with widevine, webrtc and all codecs enabled.",
+    "description": "Browser aiming for safer, faster, and more stable way for all users to experience the web (macchrome's build). This is a portable sync-disabled version of chromium with widevine, webrtc and all codecs enabled.",
     "homepage": "https://github.com/macchrome/winchrome",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/macchrome/winchrome/releases/download/v92.0.4515.131-r885287-Win64/92.0.4515.131_ungoogled_mini_installer.exe#/dl.7z",
-            "hash": "sha1:905149d0fe7a4d3cefb6fdddad861a596087e2ab"
+            "url": "https://github.com/macchrome/winchrome/releases/download/v92.0.4515.131-r885287-Win64/ungoogled-chromium-92.0.4515.131-1_Win64.7z",
+            "hash": "sha1:cc4ce992f34f9b552c06ad5de011c1e546760fa5",
+            "extract_dir": "ungoogled-chromium-92.0.4515.131-1_Win64"
         }
     },
-    "pre_install": "Expand-7zipArchive \"$dir\\chrome.7z\" \"$dir\" -ExtractDir 'Chrome-bin' -Removal",
     "bin": [
         "chrome.exe",
         [
             "chrome.exe",
-            "ungoogled-chromium"
+            "ungoogled-chromium",
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
     "shortcuts": [
         [
             "chrome.exe",
-            "Ungoogled Chromium"
+            "Ungoogled Chromium",
+            "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
+    "persist": "User Data",
     "checkver": {
         "github": "https://github.com/macchrome/winchrome",
         "regex": "Chromium v([\\d.]+)-r(?<rev>\\d+) - ungoogled"
@@ -31,12 +34,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/macchrome/winchrome/releases/download/v$version-r$matchRev-Win64/$version_ungoogled_mini_installer.exe#/dl.7z",
-                "hash": {
-                    "url": "https://github.com/macchrome/winchrome/releases/v$version-r$matchRev-Win64",
-                    "regex": "v$version-r$matchRev-Win64 $basename [(]download[)]\nSHA1 $sha1"
-                }
+                "url": "https://github.com/macchrome/winchrome/releases/download/v$version-r$matchRev-Win64/ungoogled-chromium-$version-1_Win64.7z",
+                "extract_dir": "ungoogled-chromium-$version-1_Win64"
             }
+        },
+        "hash": {
+            "url": "https://github.com/macchrome/winchrome/releases/v$version-r$matchRev-Win64",
+            "regex": "v$version-r$matchRev-Win64 $basename [(]download[)]\nSHA1 $sha1"
         }
     }
 }
