@@ -29,7 +29,7 @@
     "persist": "User Data",
     "checkver": {
         "github": "https://github.com/macchrome/winchrome",
-        "regex": "Chromium v([\\d.]+)-r(?<rev>\\d+) - ungoogled"
+        "regex": "Chromium v([\\d.]+)-6-r(?<rev>\\d+) - ungoogled"
     },
     "autoupdate": {
         "architecture": {
