@@ -34,8 +34,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/macchrome/winchrome/releases/download/v$version-r$matchRev-Win64/ungoogled-chromium-$version-1_Win64.7z",
-                "extract_dir": "ungoogled-chromium-$version-1_Win64"
+                "url": "https://github.com/macchrome/winchrome/releases/download/v$version-r$matchRev-Win64/ungoogled-chromium-$version_Win64.7z",
+                "extract_dir": "ungoogled-chromium-$version_Win64"
             }
         },
         "hash": {
