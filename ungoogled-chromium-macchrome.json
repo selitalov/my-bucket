@@ -8,7 +8,7 @@
         "64bit": {
             "url": "https://github.com/macchrome/winchrome/releases/download/v102.0.5005.63-6-r992738-Win64/ungoogled-chromium-102.0.5005.63-6_Win64.7z",
             "hash": "sha1:D907E5A5F5B4B784F8326E3DCAC55461792806A7",
-            "extract_dir": "ungoogled-chromium-102.0.5005.63-6-1_Win64"
+            "extract_dir": "ungoogled-chromium-102.0.5005.63-6_Win64"
         }
     },
     "bin": [
