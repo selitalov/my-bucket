@@ -1,4 +1,5 @@
 {
+    "##": "Note: To avoid having to download almost 2GB of data for update, hold this and download update package from GitHub and extract it over installation folder.",
     "homepage": "https://github.com/AaronFeng753/Waifu2x-Extension-GUI",
     "description": "A GUI version of waifu2x - an image, video and GIF upscale/enlarge AI.",
     "version": "3.91.01",
