@@ -29,13 +29,15 @@
     "persist": "User Data",
     "checkver": {
         "github": "https://github.com/macchrome/winchrome",
-        "regex": "Chromium v([\\d.]+)-6-r(?<rev>\\d+) - ungoogled"
+        "regex": "/v(?<chromeVersion>[\\d.]+)-(?<suffix>\\d)-r(?<build>[\\d]+)-Win64/ungoogled-chromium-[\\d.]+-\\d_Win(32|64)\\.7z",
+        "replace": "${chromeVersion}-${suffix}-r${build}",
+        "reverse": true
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://github.com/macchrome/winchrome/releases/download/v$version-r$matchRev-Win64/ungoogled-chromium-$version_Win64.7z",
-                "extract_dir": "ungoogled-chromium-$version_Win64"
+                "extract_dir": "ungoogled-chromium-$version-1_Win64"
             }
         },
         "hash": {
