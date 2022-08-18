@@ -1,14 +1,14 @@
 {
     "##": "Check chromium.woolyss.com for different versions of Chromium releases.",
-    "version": "104.0.5112.74",
+    "version": "104.0.5112.102",
     "description": "Browser aiming for safer, faster, and more stable way for all users to experience the web (macchrome's build). This is a portable sync-disabled version of chromium with widevine, webrtc and all codecs enabled.",
     "homepage": "https://github.com/macchrome/winchrome",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/macchrome/winchrome/releases/download/v104.0.5112.74-r1012729-Win64/ungoogled-chromium-104.0.5112.74-1_Win64.7z",
-            "hash": "sha1:77A79CED1DD417B00300A6C8396E2490B9591F07",
-            "extract_dir": "ungoogled-chromium-104.0.5112.74-1_Win64"
+            "url": "https://github.com/macchrome/winchrome/releases/download/v104.0.5112.102-r1012729-Win64/ungoogled-chromium-104.0.5112.102-1_Win64.7z",
+            "hash": "sha1:663DA6E61B94AA4CC9C65116FA737EA2F9C4708E",
+            "extract_dir": "ungoogled-chromium-104.0.5112.102-1_Win64"
         }
     },
     "bin": [
