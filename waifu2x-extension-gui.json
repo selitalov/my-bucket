@@ -1,15 +1,15 @@
 {
     "homepage": "https://github.com/AaronFeng753/Waifu2x-Extension-GUI",
     "description": "A GUI version of waifu2x - an image, video and GIF upscale/enlarge AI.",
-    "version": "3.95.01",
+    "version": "3.95.23",
     "license": {
         "identifier": "Shareware|Freeware",
         "url": "https://github.com/AaronFeng753/Waifu2x-Extension-GUI/blob/master/LICENSE"
     },
     "notes": "To avoid having to download almost 2GB of data for every update, hold this and download update package from 'https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases' then extract it over '$dir\\waifu2x-extension-gui'.",
-    "url": "https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/download/v3.95.01/Waifu2x-Extension-GUI-v3.95.01-Win64.7z",
-    "hash": "sha256:a038a1b043222e0f9e2c47ef63f9e93467472cc02f694b289b092d36a228697b",
-    "extract_dir": "waifu2x-extension-gui-v3.95.01-Win64",
+    "url": "https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/download/v3.95.23/Waifu2x-Extension-GUI-v3.95.23-Win64.7z",
+    "hash": "sha256:5d519a907648796b329dd17c11cfe3d3732484160f31d629cc4657917b25414b",
+    "extract_dir": "waifu2x-extension-gui-v3.95.23-Win64",
     "bin": [
         "waifu2x-extension-gui/waifu2x-extension-gui.exe",
         "waifu2x-extension-gui/waifu2x-extension-gui-launcher.exe"
