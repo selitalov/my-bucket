@@ -1,14 +1,14 @@
 {
     "##": "Check chromium.woolyss.com for different versions of Chromium releases.",
-    "version": "108.0.5359.99-1-r1016",
+    "version": "108.0.5359.125-1-r1058933",
     "description": "Browser aiming for safer, faster, and more stable way for all users to experience the web (macchrome's build). This is a portable sync-disabled version of chromium with widevine, webrtc and all codecs enabled.",
     "homepage": "https://github.com/macchrome/winchrome",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/macchrome/winchrome/releases/download/v108.5359.99-M108.0.5359.99-r1016-Win64/ungoogled-chromium-108.0.5359.99-1_Win64.7z",
-            "hash": "sha1:9152C8B8D3E7A59CCE26712023948CDA5F2662DC",
-            "extract_dir": "ungoogled-chromium-108.0.5359.99-1_Win64"
+            "url": "https://github.com/macchrome/winchrome/releases/download/v108.5359.125-M108.0.5359.125-r1058933-Win64/ungoogled-chromium-108.0.5359.125-1_Win64.7z",
+            "hash": "sha1:1ED4CBF905DF63F9250AE93035578FE48F758B9A",
+            "extract_dir": "ungoogled-chromium-108.0.5359.125-1_Win64"
         }
     },
     "bin": [
@@ -41,7 +41,7 @@
             }
         },
         "hash": {
-            "url": "https://github.com/macchrome/winchrome/tag/v108.5359.99-M$matchChromeversion-r$matchBuild-Win64/",
+            "url": "https://github.com/macchrome/winchrome/tag/v108.5359.125-M$matchChromeversion-r$matchBuild-Win64/",
             "regex": "(?s)$basename.*?$sha1"
         }
     }
